@@ -10,5 +10,35 @@ body{
 
 .title{
     color: goldenrod;
-    text-shadow: black;
+}
+
+button{
+    background-color: goldenrod;
+    color: black;
+    width: 8em;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover,
+button:focus{
+    cursor: pointer;
+    background-color: rgb(224, 245, 220);
+}
+
+
+@media screen and (min-width: 400px) {
+    .wrapper{
+        margin: 75px auto;
+        background-image: url("chipsFalling.jpg");
+        max-width: 30em;
+        padding: 25px;
+        border-radius: 15px;
+        color: rgb(224, 245, 220);
+        
+
+    }
 }
